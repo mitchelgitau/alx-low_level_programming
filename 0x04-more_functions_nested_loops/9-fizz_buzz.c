@@ -1,4 +1,5 @@
 #include <stdio.h>
+
 /**
  * main - entry block
  * @void: no argument
@@ -7,7 +8,7 @@
 int main(void)
 {
 	int i;
-	
+
 	for (i = 1; i < 100; i++)
 		if (i % 15 == 0)
 		{
@@ -24,8 +25,8 @@ int main(void)
 		else
 		{
 			printf("%d ", i);
-	        }
-			printf("Buzz");
-			printf("\n");
-			return (0);
+		}
+	printf("Buzz");
+	printf("\n");
+	return (0);
 }
